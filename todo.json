@@ -1,0 +1,1987 @@
+{
+ "updated": "2026-11-20T15:38:53",
+ "todo": [
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "1.1-1.2测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "1.3-1.5测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "2.1-2.2测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "2.3-2.5测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "3.1测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "3.2-3.3测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "4.1-4.2测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "4.3-4.4测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "5.1-5.2测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "5.3-5.7测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "练习题：1-5章综合测试",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "考试",
+   "title": "25-26-2线性代数过程考试-楚振艳",
+   "status": "Completed"
+  },
+  {
+   "course": "中华文化概论",
+   "kind": "作业",
+   "title": "作业20251202",
+   "status": "To be Submitted"
+  },
+  {
+   "course": "中华文化概论",
+   "kind": "作业",
+   "title": "礼仪文化、节庆文化、建筑文化三讲课堂笔记",
+   "status": "To be marked"
+  },
+  {
+   "course": "中华文化概论",
+   "kind": "作业",
+   "title": "节庆文化作业",
+   "status": "To be Submitted"
+  },
+  {
+   "course": "中华文化概论",
+   "kind": "考试",
+   "title": "25年秋季学期中华文化概论期中测试题10",
+   "status": "Completed"
+  },
+  {
+   "course": "中华文化概论",
+   "kind": "考试",
+   "title": "中华文化概论期末试卷9",
+   "status": "Completed"
+  },
+  {
+   "course": "中华文化概论",
+   "kind": "考试",
+   "title": "模拟卷1",
+   "status": "Completed"
+  },
+  {
+   "course": "中华文化概论",
+   "kind": "考试",
+   "title": "模拟卷2",
+   "status": "Completed"
+  },
+  {
+   "course": "中华民族共同体概论",
+   "kind": "考试",
+   "title": "中华民族共同体概论期末考试陈晓晓 7.2 10：20-副本",
+   "status": "Completed"
+  },
+  {
+   "course": "中国近现代史纲要（2025秋）",
+   "kind": "作业",
+   "title": "中国近现代史纲要实践作业（2025年秋季学期）",
+   "status": "Completed"
+  },
+  {
+   "course": "大学物理实验A2",
+   "kind": "考试",
+   "title": "万用表",
+   "status": "Expired"
+  },
+  {
+   "course": "大学物理实验A2",
+   "kind": "考试",
+   "title": "切变模量",
+   "status": "Completed"
+  },
+  {
+   "course": "大学物理实验A2",
+   "kind": "考试",
+   "title": "声速测量",
+   "status": "Completed"
+  },
+  {
+   "course": "大学物理实验A2",
+   "kind": "考试",
+   "title": "太阳能电池",
+   "status": "Completed"
+  },
+  {
+   "course": "大学物理实验A2",
+   "kind": "考试",
+   "title": "导热系数",
+   "status": "Completed"
+  },
+  {
+   "course": "大学物理实验A2",
+   "kind": "考试",
+   "title": "测温电桥",
+   "status": "Expired"
+  },
+  {
+   "course": "大学物理实验A2",
+   "kind": "考试",
+   "title": "牛顿环",
+   "status": "To be Taken"
+  },
+  {
+   "course": "大学物理实验A2",
+   "kind": "考试",
+   "title": "磁阻效应",
+   "status": "Completed"
+  },
+  {
+   "course": "形势与政策2026寒假实践作业",
+   "kind": "作业",
+   "title": "2026年铸牢中华民族共同体意识寒假社会调查任务",
+   "status": "To be marked"
+  },
+  {
+   "course": "探究式学习训练2",
+   "kind": "作业",
+   "title": "综合测验作业",
+   "status": "Completed"
+  },
+  {
+   "course": "数字逻辑与数字系统",
+   "kind": "作业",
+   "title": "作业-组合逻辑电路分析",
+   "status": "Completed"
+  },
+  {
+   "course": "数字逻辑与数字系统",
+   "kind": "作业",
+   "title": "作业-组合逻辑电路设计",
+   "status": "Completed"
+  },
+  {
+   "course": "数字逻辑与数字系统",
+   "kind": "考试",
+   "title": "课堂测试-组合逻辑电路设计-结业",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "5-3-1 树、森林和二叉树的相互转换--选择题",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "5-4-1 哈夫曼树和哈夫曼编码--选择题",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "5-5 章节综合题--树和二叉树填空题",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "6-1-1 图的逻辑结构选择",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "6-1-2 无向图的广度优先搜索",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "6-3-1 最小生成树--选择，填空题",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "6-3-2 最小生成树--简答题",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "6-4-1 最短路径--简答题",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "二叉树作业",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "树 课后作业",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "树的逻辑结构和存储结构",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "求二叉树叶子结点数",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "二叉链表算法测验",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "冒泡排序和简单选择排序",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "哈夫曼树与哈夫曼编码",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "图结构测验-复习阶段",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "图结构部分小测验",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "排序技术测验-复习阶段",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "查找技术测验-复习阶段",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "栈和队列实现测验-复习阶段",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "树与二叉树测验",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "树与二叉树测验（复习阶段）",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "直接插入排序",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "绪论与线性结构测验-复习阶段",
+   "status": "Completed"
+  },
+  {
+   "course": "文献检索与科技写作（专业认证课程）",
+   "kind": "作业",
+   "title": "文献检索报告",
+   "status": "To be Submitted"
+  },
+  {
+   "course": "文献检索与科技写作（专业认证课程）",
+   "kind": "考试",
+   "title": "写作分类与投稿",
+   "status": "Completed"
+  },
+  {
+   "course": "文献检索与科技写作（专业认证课程）",
+   "kind": "考试",
+   "title": "数据处理阶段性测验",
+   "status": "Completed"
+  },
+  {
+   "course": "文献检索与科技写作（专业认证课程）",
+   "kind": "考试",
+   "title": "科技英语语法测试",
+   "status": "Completed"
+  },
+  {
+   "course": "概率论与数理统计A",
+   "kind": "作业",
+   "title": "第一章自测作业",
+   "status": "Completed"
+  },
+  {
+   "course": "概率论与数理统计A",
+   "kind": "作业",
+   "title": "第二章测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "概率论与数理统计A",
+   "kind": "考试",
+   "title": "2026秋概率统计过程考试",
+   "status": "Completed"
+  },
+  {
+   "course": "死亡文化与生死教育",
+   "kind": "作业",
+   "title": "专题二—“我的生命线”课后作业",
+   "status": "Completed"
+  },
+  {
+   "course": "离散数学",
+   "kind": "作业",
+   "title": "一阶逻辑学作业",
+   "status": "To be Submitted"
+  },
+  {
+   "course": "离散数学",
+   "kind": "作业",
+   "title": "关系作业",
+   "status": "Completed"
+  },
+  {
+   "course": "离散数学",
+   "kind": "作业",
+   "title": "图论作业",
+   "status": "Completed"
+  },
+  {
+   "course": "离散数学",
+   "kind": "考试",
+   "title": "代数系统阶段性测验(可重做版)",
+   "status": "Completed"
+  },
+  {
+   "course": "离散数学",
+   "kind": "考试",
+   "title": "命题逻辑阶段性测试",
+   "status": "Completed"
+  },
+  {
+   "course": "程序设计基础",
+   "kind": "作业",
+   "title": "论述题：手机是不是计算机？",
+   "status": "Completed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第一章书后作业",
+   "status": "To be marked"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第一章二阶三阶行列式计算",
+   "status": "Completed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第一章行列式的性质计算行列式",
+   "status": "Completed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第三章书后作业",
+   "status": "To be marked"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第三章线性方程组解的判定",
+   "status": "Completed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第二章书后作业",
+   "status": "To be marked"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第二章矩阵乘法、带转置矩阵计算和矩阵运算成立条件",
+   "status": "Completed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第五章书后作业",
+   "status": "To be marked"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第四章书后作业",
+   "status": "To be marked"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第四章向量组的线性相关性",
+   "status": "Completed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第四章求非齐次线性方程组的通解",
+   "status": "To be marked"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "考试",
+   "title": "第一章测试",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "考试",
+   "title": "第三章测试",
+   "status": "Completed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "考试",
+   "title": "第三章测试-副本",
+   "status": "Expired"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "考试",
+   "title": "第二章测试",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "考试",
+   "title": "第五章测试题",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "考试",
+   "title": "第四章测试题",
+   "status": "Expired"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "考试",
+   "title": "第四章测试题-副本",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "舌尖上的历史与文化",
+   "kind": "考试",
+   "title": "2026年秋季学期《舌尖上的历史与文化》线上开卷考试试卷",
+   "status": "Completed"
+  },
+  {
+   "course": "计科院2026年下半年第28期党校培训结业考试",
+   "kind": "考试",
+   "title": "计科院2026年下半年第28期党校培训结业考试",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "离散数学概论",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "计算机导论 伦理 作业6",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "计算机导论 作业1",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "计算机导论 作业2",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "计算机导论 作业3",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "计算机导论 作业4",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "计算机导论 作业5",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "计算机导论 实践任务",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "计算机导论 法规 作业7",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "ArrayList作业",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "HashSet去重",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "上机2-2：继承与多态",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "上机5：HashSet员工考勤打卡去重系统",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "上机6-1 输入输出流",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "向上转型基础作业",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "实验 4-1 ArrayList抽奖系统实现",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "实验3-1 接口及多态",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "异常类作业",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "接口多态作业1",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "期中测试：多态 智能物流快递分拣系统",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "继承及多态作业1",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "考试",
+   "title": "期中测试",
+   "status": "Completed"
+  },
+  {
+   "course": "马克思主义基本原理（2026年秋）",
+   "kind": "作业",
+   "title": "纪念中国工农红军长征胜利90周年专题学习心得体会（500字）",
+   "status": "To be marked"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "作业",
+   "title": "第一次作业：函数定义相关问题",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "作业",
+   "title": "第二次作业：函数基本性质与极限论初步",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "作业",
+   "title": "第四章 不定积分作业",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "考试",
+   "title": "一元函数积分学",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "考试",
+   "title": "大连民族大学25级高等数学A1第一次过程考试",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "考试",
+   "title": "微分学（前三章）测试",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "考试",
+   "title": "微分学（单选题）",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "考试",
+   "title": "第一二章测试",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "考试",
+   "title": "第一章 函数极限与连续",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "考试",
+   "title": "第七章 微分方程复习",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "18周课堂练习",
+   "status": "To be marked"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "9.2 偏导数",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "9.3 全微分",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "9.6 全微分的几何应用",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "二重积分的概念性质与计算（1）",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "多元函数极限",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "多元复合函数求导法则（链式法则）",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "格林公式（第二型曲线积分与二重积分的关系）",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "级数基本性质作业",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "线面分型积分",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "向量与平面相关问题",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "已知方程判断曲面",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "期末总复习（7.2）",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "第九章测试",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "第八章总结",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "第八章测试",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "第八章课上测试",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "第十一章测试",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "第十二章测试",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "第十章测试",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "课上第2次测曲面方程",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "软件专业高数下册期末总复习",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "重积分大作业",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "作业",
+   "title": "数列极限的作业",
+   "status": "To be marked"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "考试",
+   "title": "11.27测试题",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "考试",
+   "title": "12.11测试题",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "考试",
+   "title": "12.18测试题",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "考试",
+   "title": "12.4测验题",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "考试",
+   "title": "中值定理、洛必达法则、泰勒公式部分测试题",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "考试",
+   "title": "导数与微分的章节测试题",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "考试",
+   "title": "导数部分的测试题",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "考试",
+   "title": "测试题：函数、数列极限、函数极限与连续",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学A2",
+   "kind": "考试",
+   "title": "9.1-9.3练习题，截止到4.20晚11：00，计入平时成绩",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学A2",
+   "kind": "考试",
+   "title": "9.4-9.6练习题，截止到4.27日晚11：00，计入平时成绩",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学A2",
+   "kind": "考试",
+   "title": "9.7和9.8节练习题，截止到5月11日晚11点，计入平时成绩",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学A2",
+   "kind": "考试",
+   "title": "两类曲线积分练习题，截止到8号晚11点，纳入平时成绩",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学A2",
+   "kind": "考试",
+   "title": "两类曲面积分练习题",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学A2",
+   "kind": "考试",
+   "title": "向量代数与空间解析几何测验题（不强制，自愿完成，考试时间120分钟，2026年4月6日23:00收卷",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学A2",
+   "kind": "考试",
+   "title": "级数练习题",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学A2",
+   "kind": "考试",
+   "title": "重积分练习题，截止到25号晚11点，计入平时成绩",
+   "status": "Expired"
+  }
+ ],
+ "all": [
+  {
+   "course": "计科院2026年下半年第28期党校培训结业考试",
+   "kind": "考试",
+   "title": "计科院2026年下半年第28期党校培训结业考试",
+   "status": "Completed"
+  },
+  {
+   "course": "数字逻辑与数字系统",
+   "kind": "作业",
+   "title": "作业-组合逻辑电路设计",
+   "status": "Completed"
+  },
+  {
+   "course": "数字逻辑与数字系统",
+   "kind": "作业",
+   "title": "作业-组合逻辑电路分析",
+   "status": "Completed"
+  },
+  {
+   "course": "数字逻辑与数字系统",
+   "kind": "考试",
+   "title": "课堂测试-组合逻辑电路设计-结业",
+   "status": "Completed"
+  },
+  {
+   "course": "马克思主义基本原理（2026年秋）",
+   "kind": "作业",
+   "title": "纪念中国工农红军长征胜利90周年专题学习心得体会（500字）",
+   "status": "To be marked"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "6-1-2 无向图的广度优先搜索",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "6-4-1 最短路径--简答题",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "5-3-1 树、森林和二叉树的相互转换--选择题",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "树 课后作业",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "树的逻辑结构和存储结构",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "二叉树作业",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "6-1-1 图的逻辑结构选择",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "6-3-1 最小生成树--选择，填空题",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "6-3-2 最小生成树--简答题",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "5-5 章节综合题--树和二叉树填空题",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "求二叉树叶子结点数",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "作业",
+   "title": "5-4-1 哈夫曼树和哈夫曼编码--选择题",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "栈和队列实现测验-复习阶段",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "排序技术测验-复习阶段",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "查找技术测验-复习阶段",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "二叉链表算法测验",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "图结构测验-复习阶段",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "树与二叉树测验（复习阶段）",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "绪论与线性结构测验-复习阶段",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "冒泡排序和简单选择排序",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "直接插入排序",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "图结构部分小测验",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "树与二叉树测验",
+   "status": "Completed"
+  },
+  {
+   "course": "数据结构与算法",
+   "kind": "考试",
+   "title": "哈夫曼树与哈夫曼编码",
+   "status": "Completed"
+  },
+  {
+   "course": "概率论与数理统计A",
+   "kind": "作业",
+   "title": "第二章测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "概率论与数理统计A",
+   "kind": "作业",
+   "title": "第一章自测作业",
+   "status": "Completed"
+  },
+  {
+   "course": "概率论与数理统计A",
+   "kind": "考试",
+   "title": "2026秋概率统计过程考试",
+   "status": "Completed"
+  },
+  {
+   "course": "大学物理实验A2",
+   "kind": "考试",
+   "title": "声速测量",
+   "status": "Completed"
+  },
+  {
+   "course": "大学物理实验A2",
+   "kind": "考试",
+   "title": "太阳能电池",
+   "status": "Completed"
+  },
+  {
+   "course": "大学物理实验A2",
+   "kind": "考试",
+   "title": "导热系数",
+   "status": "Completed"
+  },
+  {
+   "course": "大学物理实验A2",
+   "kind": "考试",
+   "title": "牛顿环",
+   "status": "To be Taken"
+  },
+  {
+   "course": "大学物理实验A2",
+   "kind": "考试",
+   "title": "万用表",
+   "status": "Expired"
+  },
+  {
+   "course": "大学物理实验A2",
+   "kind": "考试",
+   "title": "测温电桥",
+   "status": "Expired"
+  },
+  {
+   "course": "大学物理实验A2",
+   "kind": "考试",
+   "title": "磁阻效应",
+   "status": "Completed"
+  },
+  {
+   "course": "大学物理实验A2",
+   "kind": "考试",
+   "title": "切变模量",
+   "status": "Completed"
+  },
+  {
+   "course": "离散数学",
+   "kind": "作业",
+   "title": "一阶逻辑学作业",
+   "status": "To be Submitted"
+  },
+  {
+   "course": "离散数学",
+   "kind": "作业",
+   "title": "关系作业",
+   "status": "Completed"
+  },
+  {
+   "course": "离散数学",
+   "kind": "作业",
+   "title": "图论作业",
+   "status": "Completed"
+  },
+  {
+   "course": "离散数学",
+   "kind": "考试",
+   "title": "命题逻辑阶段性测试",
+   "status": "Completed"
+  },
+  {
+   "course": "离散数学",
+   "kind": "考试",
+   "title": "代数系统阶段性测验(可重做版)",
+   "status": "Completed"
+  },
+  {
+   "course": "舌尖上的历史与文化",
+   "kind": "考试",
+   "title": "2026年秋季学期《舌尖上的历史与文化》线上开卷考试试卷",
+   "status": "Completed"
+  },
+  {
+   "course": "中华民族共同体概论",
+   "kind": "考试",
+   "title": "中华民族共同体概论期末考试陈晓晓 7.2 10：20-副本",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "练习题：1-5章综合测试",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "5.3-5.7测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "5.1-5.2测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "4.3-4.4测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "4.1-4.2测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "3.2-3.3测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "3.1测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "2.3-2.5测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "2.1-2.2测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "1.3-1.5测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "作业",
+   "title": "1.1-1.2测试作业",
+   "status": "Completed"
+  },
+  {
+   "course": "25-26-2线性代数考试平台",
+   "kind": "考试",
+   "title": "25-26-2线性代数过程考试-楚振艳",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "上机6-1 输入输出流",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "上机5：HashSet员工考勤打卡去重系统",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "实验 4-1 ArrayList抽奖系统实现",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "HashSet去重",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "ArrayList作业",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "实验3-1 接口及多态",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "异常类作业",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "接口多态作业1",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "上机2-2：继承与多态",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "期中测试：多态 智能物流快递分拣系统",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "继承及多态作业1",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "作业",
+   "title": "向上转型基础作业",
+   "status": "Completed"
+  },
+  {
+   "course": "面向对象程序设计",
+   "kind": "考试",
+   "title": "期中测试",
+   "status": "Completed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第四章求非齐次线性方程组的通解",
+   "status": "To be marked"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第四章向量组的线性相关性",
+   "status": "Completed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第五章书后作业",
+   "status": "To be marked"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第三章线性方程组解的判定",
+   "status": "Completed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第二章矩阵乘法、带转置矩阵计算和矩阵运算成立条件",
+   "status": "Completed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第一章行列式的性质计算行列式",
+   "status": "Completed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第一章二阶三阶行列式计算",
+   "status": "Completed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第四章书后作业",
+   "status": "To be marked"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第三章书后作业",
+   "status": "To be marked"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第二章书后作业",
+   "status": "To be marked"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "作业",
+   "title": "第一章书后作业",
+   "status": "To be marked"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "考试",
+   "title": "第五章测试题",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "考试",
+   "title": "第四章测试题-副本",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "考试",
+   "title": "第四章测试题",
+   "status": "Expired"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "考试",
+   "title": "第三章测试-副本",
+   "status": "Expired"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "考试",
+   "title": "第三章测试",
+   "status": "Completed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "考试",
+   "title": "第二章测试",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "线性代数A",
+   "kind": "考试",
+   "title": "第一章测试",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "探究式学习训练2",
+   "kind": "作业",
+   "title": "综合测验作业",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "级数基本性质作业",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "格林公式（第二型曲线积分与二重积分的关系）",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "18周课堂练习",
+   "status": "To be marked"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "线面分型积分",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "二重积分的概念性质与计算（1）",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "9.6 全微分的几何应用",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "多元复合函数求导法则（链式法则）",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "9.3 全微分",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "9.2 偏导数",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "作业",
+   "title": "多元函数极限",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "期末总复习（7.2）",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "软件专业高数下册期末总复习",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "重积分大作业",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "第八章总结",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "第八章课上测试",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "课上第2次测曲面方程",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "已知方程判断曲面",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "向量与平面相关问题",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "第十二章测试",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "第十一章测试",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "第八章测试",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "第九章测试",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学(A2)学习平台（25级）",
+   "kind": "考试",
+   "title": "第十章测试",
+   "status": "Expired"
+  },
+  {
+   "course": "形势与政策2026寒假实践作业",
+   "kind": "作业",
+   "title": "2026年铸牢中华民族共同体意识寒假社会调查任务",
+   "status": "To be marked"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "计算机导论 实践任务",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "计算机导论 法规 作业7",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "计算机导论 伦理 作业6",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "计算机导论 作业5",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "计算机导论 作业4",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "计算机导论 作业3",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "计算机导论 作业1",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "计算机导论 作业2",
+   "status": "Completed"
+  },
+  {
+   "course": "计算机导论",
+   "kind": "作业",
+   "title": "离散数学概论",
+   "status": "Completed"
+  },
+  {
+   "course": "中华文化概论",
+   "kind": "作业",
+   "title": "礼仪文化、节庆文化、建筑文化三讲课堂笔记",
+   "status": "To be marked"
+  },
+  {
+   "course": "中华文化概论",
+   "kind": "作业",
+   "title": "作业20251202",
+   "status": "To be Submitted"
+  },
+  {
+   "course": "中华文化概论",
+   "kind": "作业",
+   "title": "节庆文化作业",
+   "status": "To be Submitted"
+  },
+  {
+   "course": "中华文化概论",
+   "kind": "考试",
+   "title": "中华文化概论期末试卷9",
+   "status": "Completed"
+  },
+  {
+   "course": "中华文化概论",
+   "kind": "考试",
+   "title": "模拟卷2",
+   "status": "Completed"
+  },
+  {
+   "course": "中华文化概论",
+   "kind": "考试",
+   "title": "模拟卷1",
+   "status": "Completed"
+  },
+  {
+   "course": "中华文化概论",
+   "kind": "考试",
+   "title": "25年秋季学期中华文化概论期中测试题10",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "作业",
+   "title": "第四章 不定积分作业",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "作业",
+   "title": "第二次作业：函数基本性质与极限论初步",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "作业",
+   "title": "第一次作业：函数定义相关问题",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "考试",
+   "title": "第七章 微分方程复习",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "考试",
+   "title": "一元函数积分学",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "考试",
+   "title": "大连民族大学25级高等数学A1第一次过程考试",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "考试",
+   "title": "微分学（单选题）",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "考试",
+   "title": "微分学（前三章）测试",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "考试",
+   "title": "第一二章测试",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学(A1)学习平台",
+   "kind": "考试",
+   "title": "第一章 函数极限与连续",
+   "status": "Completed"
+  },
+  {
+   "course": "文献检索与科技写作（专业认证课程）",
+   "kind": "作业",
+   "title": "文献检索报告",
+   "status": "To be Submitted"
+  },
+  {
+   "course": "文献检索与科技写作（专业认证课程）",
+   "kind": "考试",
+   "title": "数据处理阶段性测验",
+   "status": "Completed"
+  },
+  {
+   "course": "文献检索与科技写作（专业认证课程）",
+   "kind": "考试",
+   "title": "写作分类与投稿",
+   "status": "Completed"
+  },
+  {
+   "course": "文献检索与科技写作（专业认证课程）",
+   "kind": "考试",
+   "title": "科技英语语法测试",
+   "status": "Completed"
+  },
+  {
+   "course": "死亡文化与生死教育",
+   "kind": "作业",
+   "title": "专题二—“我的生命线”课后作业",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学A2",
+   "kind": "考试",
+   "title": "级数练习题",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学A2",
+   "kind": "考试",
+   "title": "两类曲面积分练习题",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学A2",
+   "kind": "考试",
+   "title": "两类曲线积分练习题，截止到8号晚11点，纳入平时成绩",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学A2",
+   "kind": "考试",
+   "title": "重积分练习题，截止到25号晚11点，计入平时成绩",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学A2",
+   "kind": "考试",
+   "title": "9.7和9.8节练习题，截止到5月11日晚11点，计入平时成绩",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学A2",
+   "kind": "考试",
+   "title": "9.4-9.6练习题，截止到4.27日晚11：00，计入平时成绩",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学A2",
+   "kind": "考试",
+   "title": "9.1-9.3练习题，截止到4.20晚11：00，计入平时成绩",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学A2",
+   "kind": "考试",
+   "title": "向量代数与空间解析几何测验题（不强制，自愿完成，考试时间120分钟，2026年4月6日23:00收卷",
+   "status": "Expired"
+  },
+  {
+   "course": "程序设计基础",
+   "kind": "作业",
+   "title": "论述题：手机是不是计算机？",
+   "status": "Completed"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "作业",
+   "title": "数列极限的作业",
+   "status": "To be marked"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "考试",
+   "title": "12.18测试题",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "考试",
+   "title": "12.11测试题",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "考试",
+   "title": "12.4测验题",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "考试",
+   "title": "11.27测试题",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "考试",
+   "title": "中值定理、洛必达法则、泰勒公式部分测试题",
+   "status": "Expired"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "考试",
+   "title": "导数与微分的章节测试题",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "考试",
+   "title": "导数部分的测试题",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "高等数学A1",
+   "kind": "考试",
+   "title": "测试题：函数、数列极限、函数极限与连续",
+   "status": "To be reviewed"
+  },
+  {
+   "course": "中国近现代史纲要（2025秋）",
+   "kind": "作业",
+   "title": "中国近现代史纲要实践作业（2025年秋季学期）",
+   "status": "Completed"
+  }
+ ]
+}
