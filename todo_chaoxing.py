@@ -2,10 +2,9 @@
 """
 学习通待办聚合（Playwright 版）
 环境变量：CX_COOKIE（必填）、SC_KEY（Server酱）、TG_TOKEN/TG_CHAT（可选）
-本地调试：python todo_chaoxing.py --debug   只跑前 3 门课并保存 HTML
+         CX_LIMIT（只扫前 N 门课，调试用）
 """
 import os
-import re
 import sys
 import json
 import datetime
@@ -20,8 +19,7 @@ SC_KEY = os.environ.get("SC_KEY", "").strip()
 TG_TOKEN = os.environ.get("TG_TOKEN", "").strip()
 TG_CHAT = os.environ.get("TG_CHAT", "").strip()
 OUT = "out"
-DEBUG = "--debug" in sys.argv
-LIMIT = 3 if DEBUG else 999
+LIMIT = int(os.environ.get("CX_LIMIT", "999"))
 
 os.makedirs(OUT, exist_ok=True)
 
@@ -33,7 +31,14 @@ EXTRACT_JS = """
 () => [...document.querySelectorAll('p.overHidden2')].map(p => {
   const box = p.closest('li') || p.parentElement;
   const st = box ? box.querySelector('p.status') : null;
-  return {t: p.innerText.trim(), s: st ? st.innerText.trim() : ''};
+  let s = st ? st.innerText.trim() : '';
+  if (!s && box) {
+    const t = box.innerText || '';
+    if (t.includes('已完成') || t.includes('已批阅')) s = '已完成';
+    else if (t.includes('未完成') || t.includes('未交') || t.includes('待做')) s = '未完成';
+  }
+  if (!s) s = '未知';
+  return {t: p.innerText.trim(), s: s};
 }).filter(x => x.t)
 """
 
@@ -80,23 +85,28 @@ def course_url(c):
 
 
 def scan_course(page, c, kind_label):
-    """返回该课在 作业/考试 里的条目"""
     items = []
     a = page.query_selector(f'a[title="{kind_label}"]')
     if not a:
         return items
-    a.click()
-    page.wait_for_timeout(4200)
-    for f in page.frames:
-        u = f.url or ""
-        if "work/list" in u or "exam-list" in u:
-            try:
-                rows = f.evaluate(EXTRACT_JS)
-            except Exception:
+    try:
+        a.click(timeout=8000)
+    except Exception:
+        return items
+
+    for _ in range(24):
+        for f in page.frames:
+            u = f.url or ""
+            if "work/list" not in u and "exam-list" not in u:
                 continue
-            for r in rows:
-                items.append({"course": c["name"], "kind": kind_label,
-                              "title": r["t"], "status": r["s"] or "未知"})
+            try:
+                if f.query_selector("p.overHidden2"):
+                    return [{"course": c["name"], "kind": kind_label,
+                             "title": r["t"], "status": r["s"] or "未知"}
+                            for r in f.evaluate(EXTRACT_JS)]
+            except Exception:
+                pass
+        page.wait_for_timeout(500)
     return items
 
 
@@ -114,17 +124,17 @@ def collect(courses):
         for i, c in enumerate(courses[:LIMIT], 1):
             try:
                 page.goto(course_url(c), wait_until="domcontentloaded", timeout=45000)
-                page.wait_for_timeout(3000)
+                page.wait_for_timeout(2500)
             except Exception as e:
-                print(f"[{i}] {c['name']} 打不开: {str(e)[:60]}")
+                print(f"[{i}] {c['name']} open fail {str(e)[:50]}")
                 continue
             got = []
             for label in ("作业", "考试"):
                 try:
                     got += scan_course(page, c, label)
                 except Exception as e:
-                    print(f"[{i}] {c['name']} {label} err {str(e)[:60]}")
-            print(f"[{i}/{len(courses)}] {c['name']}: {len(got)} 条")
+                    print(f"[{i}] {c['name']} {label} err {str(e)[:50]}")
+            print(f"[{i}/{len(courses)}] {c['name']}: {len(got)}")
             rows += got
         browser.close()
     return rows
@@ -138,12 +148,6 @@ def push(title, body):
             print("[push]", r.status_code)
         except Exception as e:
             print("[push] fail", e)
-    if TG_TOKEN and TG_CHAT:
-        try:
-            requests.post(f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
-                          data={"chat_id": TG_CHAT, "text": body[:3900]}, timeout=15)
-        except Exception:
-            pass
 
 
 def render_md(todo, total):
@@ -156,7 +160,7 @@ def render_md(todo, total):
         for x in todo:
             lines.append(f'| {x["course"]} | {x["kind"]} | {x["title"].replace("|", "／")} |')
     else:
-        lines.append("暂无未完成项 🎉")
+        lines.append("暂无未完成项")
     lines += ["", "---", "<sub>脚本自动生成</sub>", ""]
     return "\n".join(lines)
 
@@ -164,8 +168,7 @@ def render_md(todo, total):
 def render_html(todo):
     li = "\n".join(
         f'<li><div class="hd"><b>{x["course"]}</b><span class="k">{x["kind"]}</span></div>'
-        f'<div class="ti">{x["title"]}</div></li>' for x in todo) or \
-        '<li class="ok">暂无待办 🎉</li>'
+        f'<div class="ti">{x["title"]}</div></li>' for x in todo) or '<li class="ok">暂无待办</li>'
     now = datetime.datetime.now().strftime("%m-%d %H:%M")
     return f"""<!doctype html><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -187,7 +190,7 @@ def main():
         print("no CX_COOKIE")
         return
     courses = fetch_courses()
-    print(f"[courses] {len(courses)} 门")
+    print(f"[courses] {len(courses)}")
     if not courses:
         push("学习通待办：Cookie 失效", "去 i.chaoxing.com 重新登录并更新 Secret CX_COOKIE")
         return
@@ -202,7 +205,7 @@ def main():
         seen.add(k)
         uniq.append(x)
 
-    todo = [x for x in uniq if "已完成" not in x["status"] and "已批阅" not in x["status"]]
+    todo = [x for x in uniq if "已完成" not in x["status"]]
     todo.sort(key=lambda x: (x["course"], x["kind"], x["title"]))
 
     open("todo.md", "w", encoding="utf-8").write(render_md(todo, len(uniq)))
@@ -213,7 +216,7 @@ def main():
 
     body = "\n".join(f'[{x["kind"]}] {x["course"]}：{x["title"]}' for x in todo[:15])
     if len(todo) > 15:
-        body += f"\n… 还有 {len(todo) - 15} 项"
+        body += f"\n... 还有 {len(todo) - 15} 项"
     push(f"学习通待办 {len(todo)} 项", body or "全部做完了")
     print(f"[done] {len(todo)} todo / {len(uniq)} total")
 
