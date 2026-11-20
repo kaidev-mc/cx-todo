@@ -31,14 +31,14 @@ EXTRACT_JS = """
 () => [...document.querySelectorAll('p.overHidden2')].map(p => {
   const box = p.closest('li') || p.parentElement;
   const st = box ? box.querySelector('p.status') : null;
-  let s = st ? st.innerText.trim() : '';
+  let s = st ? (st.textContent || '').replace(/\\s+/g, ' ').trim() : '';
   if (!s && box) {
-    const t = box.innerText || '';
+    const t = (box.textContent || '').replace(/\\s+/g, ' ');
     if (t.includes('已完成') || t.includes('已批阅')) s = '已完成';
     else if (t.includes('未完成') || t.includes('未交') || t.includes('待做')) s = '未完成';
   }
   if (!s) s = '未知';
-  return {t: p.innerText.trim(), s: s};
+  return {t: (p.textContent || '').replace(/\\s+/g, ' ').trim(), s: s};
 }).filter(x => x.t)
 """
 
@@ -135,6 +135,8 @@ def collect(courses):
                 except Exception as e:
                     print(f"[{i}] {c['name']} {label} err {str(e)[:50]}")
             print(f"[{i}/{len(courses)}] {c['name']}: {len(got)}")
+            if got and i <= 20:
+                print("    sample:", got[0])
             rows += got
         browser.close()
     return rows
