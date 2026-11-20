@@ -12,6 +12,7 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
 
@@ -20,7 +21,9 @@ jobs:
           python-version: '3.12'
 
       - name: 安装依赖
-        run: pip install requests
+        run: |
+          pip install requests playwright
+          python -m playwright install --with-deps chromium
 
       - name: 抓待办
         env:
