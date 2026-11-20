@@ -1,0 +1,39 @@
+version: 1.0
+
+name: cx-todo
+displayName: 学习通待办
+
+triggers:
+  trigger: auto
+  push:
+    branches:
+      precise:
+        - main
+  schedule:
+    # Quartz 六位：秒 分 时 日 月 周。北京时间 07:30
+    - cron: "0 30 7 * * ?"
+
+variables:
+  GLOBAL:
+    - name: GIT_PUSH
+      value: "1"
+      type: string
+
+stages:
+  - stage:
+      name: run
+      displayName: 抓取并回写仓库
+      steps:
+        - step: shell@1
+          name: install
+          displayName: 安装依赖
+          inputs:
+            script: |
+              python3 -m pip install --quiet requests
+
+        - step: shell@1
+          name: run
+          displayName: 跑脚本
+          inputs:
+            script: |
+              python3 todo_chaoxing.py
