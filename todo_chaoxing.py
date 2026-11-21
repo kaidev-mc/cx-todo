@@ -179,23 +179,54 @@ def render_md(todo, total):
 
 
 def render_html(todo):
-    li = "\n".join(
-        f'<li><div class="hd"><b>{x["course"]}</b><span class="k">{x["kind"]}</span></div>'
-        f'<div class="ti">{x["title"]}</div></li>' for x in todo) or '<li class="ok">暂无待办</li>'
+    groups = {}
+    for x in todo:
+        groups.setdefault(x["course"], []).append(x)
+    ordered = sorted(groups.items(), key=lambda kv: (-len(kv[1]), kv[0]))
+
+    blocks = []
+    for course, items in ordered:
+        rows = "\n".join(
+            f'<li><i class="dot"></i><span class="t">{x["title"]}</span>'
+            f'<span class="k">{x["kind"]}</span></li>' for x in items)
+        blocks.append(
+            f'<section><h2>{course}<em>{len(items)}</em></h2><ul>{rows}</ul></section>')
+
     now = datetime.datetime.now().strftime("%m-%d %H:%M")
-    return f"""<!doctype html><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+    body = "\n".join(blocks) or '<p class="empty">暂无待办</p>'
+    return f"""<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#111113">
 <title>学习通待办</title>
 <style>
-body{{background:#0f0f10;color:#ececec;font:17px/1.55 -apple-system,"PingFang SC",sans-serif;margin:0;padding:18px 14px 40px}}
-h1{{font-size:20px;margin:0 0 2px}} .sub{{color:#7b7b80;font-size:13px;margin-bottom:14px}}
-ul{{list-style:none;padding:0}} li{{background:#1b1b1e;border-radius:14px;padding:13px 15px;margin:10px 0;border-left:4px solid #c0392b}}
-li.ok{{border-left-color:#2ecc71;text-align:center;color:#8fe3b0}}
-.hd{{display:flex;gap:8px;align-items:center;font-size:13px;color:#a8a8ad;margin-bottom:4px}}
-.k{{background:#c0392b;color:#fff;border-radius:6px;padding:1px 7px;font-size:12px}}
-.ti{{font-weight:600}}
-</style>
-<h1>学习通待办 {len(todo)} 项</h1><div class="sub">{now} 更新</div><ul>{li}</ul>"""
+*{{box-sizing:border-box;-webkit-tap-highlight-color:transparent}}
+body{{margin:0;padding:16px 12px 48px;background:#111113;color:#e9e9ec;
+font:15px/1.5 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}}
+header{{padding:4px 6px 14px;display:flex;align-items:baseline;gap:8px}}
+h1{{font-size:22px;margin:0;font-weight:700;letter-spacing:-.3px}}
+header b{{color:#ff4d6d;font-size:22px}}
+header span{{color:#6f6f78;font-size:12px;margin-left:auto}}
+section{{background:#1b1b1f;border-radius:14px;margin:9px 0;overflow:hidden}}
+h2{{font-size:14px;font-weight:600;color:#b9b9c2;margin:0;padding:11px 14px;
+background:#212127;display:flex;align-items:center;gap:8px}}
+h2 em{{margin-left:auto;font-style:normal;font-size:12px;color:#ff4d6d;
+background:#2a2024;border-radius:20px;padding:1px 8px}}
+ul{{list-style:none;margin:0;padding:0}}
+li{{display:flex;align-items:flex-start;gap:9px;padding:12px 14px;border-top:1px solid #242429}}
+li:first-child{{border-top:0}}
+.dot{{flex:0 0 6px;width:6px;height:6px;border-radius:50%;background:#ff4d6d;margin-top:7px}}
+.t{{flex:1;font-size:15px;line-height:1.45;word-break:break-word}}
+.k{{flex:0 0 auto;font-size:11px;color:#8b8b95;border:1px solid #33333b;
+border-radius:5px;padding:1px 5px;margin-top:2px}}
+.empty{{text-align:center;color:#8fe3b0;padding:40px 0}}
+footer{{text-align:center;color:#55555e;font-size:12px;padding-top:18px}}
+</style></head><body>
+<header><h1>待办 <b>{len(todo)}</b></h1><span>{now} 更新</span></header>
+{body}
+<footer>数据来自学习通 · 每天自动更新</footer>
+</body></html>"""
 
 
 def main():
