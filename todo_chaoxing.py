@@ -43,11 +43,15 @@ EXTRACT_JS = """
 }).filter(x => x.t)
 """
 
-DONE_PAT = re.compile(r"已完成|已批阅|Completed|Submitted|Graded", re.I)
+UNDONE_PAT = re.compile(r"To be Submitted|Not\s*Started|Unsubmitted|未完成|未交|待做|待提交", re.I)
+DONE_PAT = re.compile(r"已完成|已批阅|待批阅|Completed|Submitted|Graded|Marked", re.I)
 
 
 def is_done(status):
-    return bool(DONE_PAT.search(status or ""))
+    s = status or ""
+    if UNDONE_PAT.search(s):
+        return False
+    return bool(DONE_PAT.search(s))
 
 
 def cookie_list():
