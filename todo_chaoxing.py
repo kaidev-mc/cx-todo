@@ -5,6 +5,7 @@
          CX_LIMIT（只扫前 N 门课，调试用）
 """
 import os
+import re
 import sys
 import json
 import datetime
@@ -34,13 +35,19 @@ EXTRACT_JS = """
   let s = st ? (st.textContent || '').replace(/\\s+/g, ' ').trim() : '';
   if (!s && box) {
     const t = (box.textContent || '').replace(/\\s+/g, ' ');
-    if (t.includes('已完成') || t.includes('已批阅')) s = '已完成';
-    else if (t.includes('未完成') || t.includes('未交') || t.includes('待做')) s = '未完成';
+    if (/已完成|已批阅|Completed|Submitted|Graded/i.test(t)) s = '已完成';
+    else if (/未完成|未交|待做|Not\\s*Started|Unsubmitted/i.test(t)) s = '未完成';
   }
   if (!s) s = '未知';
   return {t: (p.textContent || '').replace(/\\s+/g, ' ').trim(), s: s};
 }).filter(x => x.t)
 """
+
+DONE_PAT = re.compile(r"已完成|已批阅|Completed|Submitted|Graded", re.I)
+
+
+def is_done(status):
+    return bool(DONE_PAT.search(status or ""))
 
 
 def cookie_list():
@@ -207,7 +214,7 @@ def main():
         seen.add(k)
         uniq.append(x)
 
-    todo = [x for x in uniq if "已完成" not in x["status"]]
+    todo = [x for x in uniq if not is_done(x["status"])]
     todo.sort(key=lambda x: (x["course"], x["kind"], x["title"]))
 
     open("todo.md", "w", encoding="utf-8").write(render_md(todo, len(uniq)))

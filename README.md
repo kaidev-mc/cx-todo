@@ -80,13 +80,17 @@ schedule:
 
 ## 三、GitHub 部署
 
-1. 建私有仓库，推送 `main` 分支
+1. 建仓库，推送 `main` 分支
 2. Settings → Secrets 加 `CX_COOKIE`、`SC_KEY`
-3. Settings → Pages → Source 选 `gh-pages` 分支
-4. Actions → **学习通待办** → Run workflow
+3. Actions → **学习通待办** → Run workflow（第一次先手动跑通）
 
 跑通后网页地址 `https://用户名.github.io/cx-todo/`，手机「添加到主屏幕」当 App。
 时间在 `.github/workflows/todo.yml` 的 `cron: '0 23 * * *'`（UTC，北京 07:00）。
+
+> **注意**：GitHub 免费账户的 Pages 只对**公开仓库**开放。仓库是私有的会报
+> `Your current plan does not support GitHub Pages`。两个选择：
+> - 把仓库 Settings → General → 最下方改成 Public（清单会被任何人看到）
+> - 或者不开 Pages，只用微信推送（`SC_KEY` 那条消息里就是完整清单）
 
 ---
 
