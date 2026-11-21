@@ -1,11 +1,17 @@
 {
- "updated": "2026-11-21T04:00:44",
+ "updated": "2026-11-21T04:25:29",
  "todo": [
   {
    "course": "中华文化概论",
    "kind": "作业",
-   "title": "礼仪文化、节庆文化、建筑文化三讲课堂笔记",
-   "status": "To be marked"
+   "title": "作业20251202",
+   "status": "To be Submitted"
+  },
+  {
+   "course": "中华文化概论",
+   "kind": "作业",
+   "title": "节庆文化作业",
+   "status": "To be Submitted"
   },
   {
    "course": "大学物理实验A2",
@@ -26,52 +32,22 @@
    "status": "To be Taken"
   },
   {
-   "course": "形势与政策2026寒假实践作业",
-   "kind": "作业",
-   "title": "2026年铸牢中华民族共同体意识寒假社会调查任务",
-   "status": "To be marked"
-  },
-  {
    "course": "数据结构与算法",
    "kind": "考试",
    "title": "图结构测验-复习阶段",
    "status": "To be reviewed"
   },
   {
-   "course": "线性代数A",
+   "course": "文献检索与科技写作（专业认证课程）",
    "kind": "作业",
-   "title": "第一章书后作业",
-   "status": "To be marked"
+   "title": "文献检索报告",
+   "status": "To be Submitted"
   },
   {
-   "course": "线性代数A",
+   "course": "离散数学",
    "kind": "作业",
-   "title": "第三章书后作业",
-   "status": "To be marked"
-  },
-  {
-   "course": "线性代数A",
-   "kind": "作业",
-   "title": "第二章书后作业",
-   "status": "To be marked"
-  },
-  {
-   "course": "线性代数A",
-   "kind": "作业",
-   "title": "第五章书后作业",
-   "status": "To be marked"
-  },
-  {
-   "course": "线性代数A",
-   "kind": "作业",
-   "title": "第四章书后作业",
-   "status": "To be marked"
-  },
-  {
-   "course": "线性代数A",
-   "kind": "作业",
-   "title": "第四章求非齐次线性方程组的通解",
-   "status": "To be marked"
+   "title": "一阶逻辑学作业",
+   "status": "To be Submitted"
   },
   {
    "course": "线性代数A",
@@ -110,18 +86,6 @@
    "status": "To be reviewed"
   },
   {
-   "course": "马克思主义基本原理（2026年秋）",
-   "kind": "作业",
-   "title": "纪念中国工农红军长征胜利90周年专题学习心得体会（500字）",
-   "status": "To be marked"
-  },
-  {
-   "course": "高等数学(A2)学习平台（25级）",
-   "kind": "作业",
-   "title": "18周课堂练习",
-   "status": "To be marked"
-  },
-  {
    "course": "高等数学(A2)学习平台（25级）",
    "kind": "考试",
    "title": "期末总复习（7.2）",
@@ -156,12 +120,6 @@
    "kind": "考试",
    "title": "软件专业高数下册期末总复习",
    "status": "To be reviewed"
-  },
-  {
-   "course": "高等数学A1",
-   "kind": "作业",
-   "title": "数列极限的作业",
-   "status": "To be marked"
   },
   {
    "course": "高等数学A1",
