@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:40:35",
+ "updated": "2026-11-23T23:47:35",
  "todo": [
   {
    "course": "中华文化概论",
@@ -24,12 +24,6 @@
    "kind": "考试",
    "title": "测温电桥",
    "status": "Expired"
-  },
-  {
-   "course": "大学物理实验A2",
-   "kind": "考试",
-   "title": "牛顿环",
-   "status": "To be Taken"
   },
   {
    "course": "数据结构与算法",
@@ -433,7 +427,7 @@
    "course": "大学物理实验A2",
    "kind": "考试",
    "title": "牛顿环",
-   "status": "To be Taken"
+   "status": "Completed"
   },
   {
    "course": "大学物理实验A2",
