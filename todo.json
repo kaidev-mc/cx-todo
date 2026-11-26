@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T23:48:06",
+ "updated": "2026-11-26T23:52:44",
  "todo": [
   {
    "course": "中华文化概论",
@@ -36,12 +36,6 @@
    "kind": "作业",
    "title": "文献检索报告",
    "status": "To be Submitted"
-  },
-  {
-   "course": "概率论与数理统计A",
-   "kind": "考试",
-   "title": "概率第二次过程考试-软件25级",
-   "status": "Not started"
   },
   {
    "course": "离散数学",
@@ -409,7 +403,7 @@
    "course": "概率论与数理统计A",
    "kind": "考试",
    "title": "概率第二次过程考试-软件25级",
-   "status": "Not started"
+   "status": "Completed"
   },
   {
    "course": "概率论与数理统计A",
